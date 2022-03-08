@@ -1,5 +1,5 @@
-from lib.Device import Device
-from lib.Colour import Colour
+from module.Device import Device
+from module.Colour import Colour
 import tkinter as tk
 from tkinter import *
 
