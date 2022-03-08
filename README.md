@@ -2,7 +2,7 @@
 RGB - serial output
 
 #### shematic
-![]('./sheme/arduino-uno.png')
+![](./sheme/arduino-uno.png)
 
 
 #### test tinkercad
