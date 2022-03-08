@@ -5,7 +5,7 @@ int c = 0;
 void setup()
 {
     Serial.begin(9600);
-    // initialize the digital pin as an output.
+    // initialize the digital pin as an input.
     for (int i = 0; i < 3; i++)
     {
         pinMode(RGB[i], INPUT);
