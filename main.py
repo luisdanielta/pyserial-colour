@@ -1,7 +1,6 @@
 from module.Device import Device
 from module.Colour import Colour
 import tkinter as tk
-from tkinter import *
 
 pipico = Device("COM4", 115200)
 pipico.connect()

@@ -1,5 +1,6 @@
 const int RGB[3] = {A1, A2, A3}; // 50 Ohm
 const char *ID[3] = {"R:", "G:", "B:"};
+int c = 0;
 
 void setup()
 {
@@ -13,12 +14,11 @@ void setup()
 
 void loop()
 {
-    int number = 0;
-    for (int i = 0; i < 3; i++)
-    {
-        number = map(analogRead(RGB[i]), 0, 1023, 0, 255);
-        Serial.print(ID[i]);
-        Serial.println(number);
-    }
+    int num = 0;
+    num = map(analogRead(RGB[c]), 0, 1023, 0, 255);
+    Serial.print(ID[c]);
+    Serial.println(num);
+    c++;
+    if (c == 3) c = 0;
     delay(100);
 }
