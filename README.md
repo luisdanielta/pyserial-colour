@@ -2,7 +2,7 @@
 RGB - serial output
 
 #### schematic
-![](./scheme/arduino-uno.png)
+![](./scheme/arduino-uno.PNG)
 
 
 #### test tinkercad
