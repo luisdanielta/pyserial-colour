@@ -7,7 +7,7 @@ void setup()
     // initialize the digital pin as an output.
     for (int i = 0; i < 3; i++)
     {
-        pinMode(RGB[i], OUTPUT);
+        pinMode(RGB[i], INPUT);
     }
 }
 
