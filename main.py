@@ -8,14 +8,15 @@ pipico.connect()
 colour = Colour()
 
 app = tk.Tk()
+app.geometry("400x400")
 
 
 def windows():
-    app.title("RGB LED")
-    app.geometry("400x400")
     data = pipico.read()
     colour.initColour(data)
     app.configure(background=colour.getHEX())
+    title = "RGB: {} - HEX: {}".format(colour.getRGB(), colour.getHEX())
+    app.title(title)
     app.after(100, windows)
 
 
