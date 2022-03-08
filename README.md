@@ -1,8 +1,8 @@
 ### pyserial-colour
 RGB - serial output
 
-#### shematic
-![](./sheme/arduino-uno.png)
+#### schematic
+![](./scheme/arduino-uno.png)
 
 
 #### test tinkercad
